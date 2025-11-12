@@ -1,5 +1,6 @@
 package pe.upc.edu.bibflipbackend.booking.domain.model.entities;
 
+import lombok.Setter;
 import pe.upc.edu.bibflipbackend.booking.domain.model.valueobjects.ScheduleSlotStatus;
 import pe.upc.edu.bibflipbackend.booking.domain.model.valueobjects.TimeSlot;
 import pe.upc.edu.bibflipbackend.shared.domain.model.entities.AuditableModel;
@@ -10,6 +11,7 @@ import java.time.LocalDate;
 
 @Getter
 @Entity
+@Setter
 public class AvailabilitySlot extends AuditableModel {
 
     @Id

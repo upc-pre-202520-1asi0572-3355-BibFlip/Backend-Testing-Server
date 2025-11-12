@@ -1,5 +1,6 @@
 package pe.upc.edu.bibflipbackend.booking.domain.model.aggregates;
 
+import lombok.Setter;
 import pe.upc.edu.bibflipbackend.booking.domain.model.entities.BookingSlot;
 import pe.upc.edu.bibflipbackend.booking.domain.model.valueobjects.UserId;
 import pe.upc.edu.bibflipbackend.shared.domain.model.aggregates.AuditableAbstractAggregateRoot;
@@ -11,6 +12,7 @@ import java.util.Set;
 
 @Getter
 @Entity
+@Setter
 public class Booking extends AuditableAbstractAggregateRoot<Booking> {
 
     // Identificador del cliente (Value Object)
