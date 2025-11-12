@@ -4,9 +4,9 @@ import lombok.Getter;
 
 @Getter
 public enum CubicleZone {
-    MAIN_HALL("sala principal"),
-    WINDOW("ventana"),
-    TERRACE("terraza");
+    MAIN_HALL("pabellón principal"),
+    HALL_B("pabellón B"),
+    HALL_C("pabellón C");
 
     private final String name;
 
