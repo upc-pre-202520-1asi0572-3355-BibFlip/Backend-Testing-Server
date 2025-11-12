@@ -15,6 +15,7 @@ import java.util.Set;
 
 @Getter
 @Entity
+@Setter
 public class Cubicle extends AuditableAbstractAggregateRoot<Cubicle> {
 
     @Embedded
